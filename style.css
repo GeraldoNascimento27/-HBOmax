@@ -1,48 +1,87 @@
 * {
     margin: 0;
     padding: 0;
+
+    background-color: #0F0F0F;
+    color: #FFFFFF;
+
+    font-family: 'Inter', sans-serif;
     font-size: 33px;
 }
 
 body {
+    display: flex;
+    flex-direction: column;
     margin-top: 55px;
-    margin-left: 94px;
+    text-align: center;
+    align-items: center;
+}
 
-    width: 600px;
-
-    
+#entrar {
+    width: 770px;
+    align-items: center;
 }
 
 #logo {
-    width: 329px;
+    width: 165px;
+}
+
+#menu {
+    line-height: 0;
+
 }
 
 h1 {
     margin-top: 30px;
     font-size: 54px;
 }
-p{
+
+p {
     margin-top: 40px;
     margin-bottom: 40px;
 
-    font-size: 28px;
+    text-align: center;
+
+    font-size: 29px;
 }
-label{
+
+label {
     margin-top: 30px;
     margin-bottom: 10px;
+    width: 100%;
+
+    text-align: start;
 }
+
 form {
     display: flex;
     flex-direction: column;
-}
-.inpBtn{
-    height: 50px;
+    align-items: center;
+
+    font-size: 54px;
 }
 
-input{
-    padding-left: 25px;
+.inpBtn {
+    height: 55px;
+    border-radius: 25px;
+    width: 95%;
 }
-#btnEntrar{
-    margin-top: 20px;
-    margin-bottom: 30px;
+
+input {
+    background-color: #7F7F7F;
+    padding-left: 5%;
+}
+
+button {
+    height: 60px !important;
+    background-color: #8C77E0;
+}
+
+#btnEntrar {
+    margin-top: 40px;
+    width: 214px;
+}
+
+#btnEntrarProvedor {
+    width: 460px;
 }
