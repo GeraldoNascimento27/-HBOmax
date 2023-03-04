@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 33px;
+}
+
+body {
+    margin-top: 55px;
+    margin-left: 94px;
+
+    width: 600px;
+
+    
+}
+
+#logo {
+    width: 329px;
+}
+
+h1 {
+    margin-top: 30px;
+    font-size: 54px;
+}
+p{
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+    font-size: 28px;
+}
+label{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+.inpBtn{
+    height: 50px;
+}
+
+input{
+    padding-left: 25px;
+}
+#btnEntrar{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
