@@ -2,23 +2,70 @@
     margin: 0;
     padding: 0;
 
-    background-color: #0F0F0F;
     color: #FFFFFF;
 
     font-family: 'Inter', sans-serif;
     font-size: 33px;
+
 }
 
 body {
+    background: rgba(0, 0, 0, 0.8) url(fundo.png);
+    background-repeat: no-repeat;
+    background-position:initial;
+    background-size: cover;
+
+
     display: flex;
     flex-direction: column;
-    margin-top: 55px;
     text-align: center;
     align-items: center;
+
+}
+
+#nav {
+    display: flex;
+    flex-direction: row;
+
+    width: 99%;
+    height: 70px;
+
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menuC {
+    margin-bottom: 7px;
+}
+
+
+.displayRow1 {
+    display: flex;
+    width: 200px;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 2rem;
+}
+
+.displayRow2 {
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+    margin-right: 2.2rem;
+    margin-left: -3rem;
+}
+.semMT{
+    margin: 0px;
+}
+
+#menu {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
 }
 
 #entrar {
-    width: 770px;
+    width: 550px;
     align-items: center;
 }
 
@@ -26,19 +73,14 @@ body {
     width: 165px;
 }
 
-#menu {
-    line-height: 0;
-
-}
-
 h1 {
-    margin-top: 30px;
+    margin-top: 105px;
     font-size: 54px;
 }
 
 p {
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 
     text-align: center;
 
@@ -46,9 +88,9 @@ p {
 }
 
 label {
-    margin-top: 30px;
+    margin-top: 0px;
     margin-bottom: 10px;
-    width: 100%;
+    width: 89%;
 
     text-align: start;
 }
@@ -64,24 +106,29 @@ form {
 .inpBtn {
     height: 55px;
     border-radius: 25px;
-    width: 95%;
+    width: 80%;
 }
 
 input {
-    background-color: #7F7F7F;
-    padding-left: 5%;
+    padding-left: 9%;
+    background-color:  rgba(127, 127, 127, 0.75);
+    border: 0px !important;
 }
 
 button {
     height: 60px !important;
     background-color: #8C77E0;
+    color: black;
+
+    background-image: linear-gradient(to right, #A18CD1  , #FBC2EB  );
 }
 
 #btnEntrar {
     margin-top: 40px;
-    width: 214px;
+    width: 220px;
 }
 
 #btnEntrarProvedor {
     width: 460px;
+    margin-bottom: 100px;
 }
