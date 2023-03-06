@@ -6,21 +6,18 @@
 
     font-family: 'Inter', sans-serif;
     font-size: 33px;
-
 }
 
 body {
     background: rgba(0, 0, 0, 0.8) url(fundo.png);
     background-repeat: no-repeat;
-    background-position:initial;
+    background-position: initial;
     background-size: cover;
-
 
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
-
 }
 
 #nav {
@@ -38,7 +35,6 @@ body {
     margin-bottom: 7px;
 }
 
-
 .displayRow1 {
     display: flex;
     width: 200px;
@@ -54,7 +50,8 @@ body {
     margin-right: 2.2rem;
     margin-left: -3rem;
 }
-.semMT{
+
+.semMT {
     margin: 0px;
 }
 
@@ -65,7 +62,7 @@ body {
 }
 
 #entrar {
-    width: 550px;
+    width: 48%;
     align-items: center;
 }
 
@@ -106,12 +103,12 @@ form {
 .inpBtn {
     height: 55px;
     border-radius: 25px;
-    width: 80%;
+    width: 90%;
 }
 
 input {
-    padding-left: 9%;
-    background-color:  rgba(127, 127, 127, 0.75);
+    padding-left: 8%;
+    background-color: rgba(127, 127, 127, 0.75);
     border: 0px !important;
 }
 
@@ -120,7 +117,7 @@ button {
     background-color: #8C77E0;
     color: black;
 
-    background-image: linear-gradient(to right, #A18CD1  , #FBC2EB  );
+    background-image: linear-gradient(to right, #A18CD1, #FBC2EB);
 }
 
 #btnEntrar {
